@@ -94,9 +94,8 @@ A sleek, robust, and full-stack project management application built with the **
 | **DELETE** | `/tasks/:id` | Delete a specific task |
 
 ---
+## 🌐 Live Demo
 
-## 🔍 Troubleshooting
+Frontend: [https://project-management-1-frontend.onrender.com/](https://project-management-1-frontend.onrender.com/)
 
-- **MongoDB Connection Error:** Ensure your MongoDB service is running. If you see `ECONNREFUSED ::1`, ensure your `.env` is using `127.0.0.1` rather than `localhost`.
-- **Delete Button Issues:** If the project card navigation conflicts with the delete button, ensure `e.stopPropagation()` is used in the click handler (fixed in latest version).
-- **Missing Modules:** Run `npm install` in both `frontend` and `backend` directories if you encounter `MODULE_NOT_FOUND` errors.
+Backend API: [https://your-backend-url.onrender.com/](https://project-management-t069.onrender.com/)
